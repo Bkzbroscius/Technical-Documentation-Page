@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        float: left;
+        height: 100%;
+        width: 25%;
+        border-right: 1px solid #000000;
+        overflow: scroll;
+    }
+    
+    #main-doc {
+        width: 75%;
+        float: right;
+    }
+    
+}
+
+#navbar header {
+    padding: 10px;
+}
+
+
+
+main {
+    font-size: 1.8em;
+}
+
+.main-section {
+    margin: 30px;
+}
+
+.main-section header {
+    font-weight: 900;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+body {
+    background-color: rgba(245, 229, 220, 0.9);
+}
